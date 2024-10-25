@@ -1,5 +1,5 @@
 # logPlot
-Python script that can take a syntactic log file as input and produce a plot the data on a graph of your choosing
+Python script that can take a syntactic log file as input and produce a plot of the the data on a graph of your choosing
 ## Syntax
 Any log printed in the form (with angle bracket enclosings):
 
