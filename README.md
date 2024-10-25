@@ -5,7 +5,7 @@ Any log printed in the form (with angle bracket enclosings):
 
 `<Title> <label1:value1, label2:value2, label3:value3,..., labeln:valuen> <plotType1, plotType2, plotType3,..., plotTypen>`
 
-Will output n plots where each plotType n corresponds to labeln:valuen all titled 'Title' and plotted over a domain corresponding to the number
+Will output n plots titled 'Title' where each plotType n corresponds to labeln:valuen all plotted over a domain corresponding to the number
 of times the log was printed.
 
 In this sense, the plots work best for periodic log statements that print system information such as memory usage, cpu usage, or various states as they progress
