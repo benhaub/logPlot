@@ -1,7 +1,7 @@
 # logPlot
 Python script that can take a syntactic log file as input and produce a plot of the the data on a graph of your choosing
 ## Syntax
-Any log printed in the form (with angle bracket enclosings):
+Any log printed in the form (with angle bracket enclosures):
 
 `<Title> <label1:value1, label2:value2, label3:value3,..., labeln:valuen> <plotType1, plotType2, plotType3,..., plotTypen>`
 
