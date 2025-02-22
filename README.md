@@ -10,3 +10,15 @@ of times the log was printed.
 
 In this sense, the plots work best for periodic log statements that print system information such as memory usage, cpu usage, or various states as they progress
 over time.
+
+## Installing missing modules
+If you run the script and receive errors about missing modules, it is reccomended to create a python virtual and install the modules using the requirements.txt file.
+From within this repository, run
+`python -m venv .venv`
+then run
+`. .venv/bin/activate`
+then run
+`pip install -r requirements.txt`
+Now you will be able to run the script.
+type
+`deactivate` when you are done using the script to exit from the virtual environment.

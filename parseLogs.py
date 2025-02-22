@@ -15,12 +15,12 @@ import textwrap
 try:
   import matplotlib.pyplot as plot
 except ModuleNotFoundError:
-  print("Error: matplotlib is not installed. Run `python -m pip install matplotlib` to install it or activate the included virtual environment `. ./logPlot/.venv/bin/activate`")
+  print("Error: matplotlib is not installed.")
   exit(1)
 try:
    import numpy as np
 except ModuleNotFoundError:
-  print("Error: numpy is not installed. Run `python -m pip install numpy` to install it or activate the included virtual environment `. ./logPlot/.venv/bin/activate`")
+  print("Error: numpy is not installed.")
   exit(1)
 
 from datetime import datetime
