@@ -39,7 +39,7 @@ if __name__ == '__main__':
                                               [] are optional. Any part of the log in square brackets can be skipped.\n\
                                               <> are part of the syntax and must be written with the log to enclose the data to be graphed\n\
                                               If the <Title> is skipped, the entire log is skipped. If <ChartType> is skipped, then the plots default to a line chart.\n\
-                                              Excepted ChartTypes are: Line, Bar, Scatter, Pie, and Omit. Omit will not create a plot for the respective label:value pair.\n\
+                                              Excepted ChartTypes are: Line, Bar, Scatter, Pie, Stem, and Omit. Omit will not create a plot for the respective label:value pair.\n\
                                               All graphs are plotted against the number of times they have printed so it's best to print them in a known period (like once a minute)\n\
                                               Examples:\n\
                                               //Produce 2 line graphs each with title "StorageStatus".
@@ -150,6 +150,8 @@ for plotNumberForTitle in range (0, len(plotTitles)):
             axis.pie(countOfEachUniqueValue, labels=uniqueValues, radius=1.5, center=(1.5,1.5), autopct='%1.1f%%', wedgeprops={"linewidth":1, "edgecolor": "black"}, frame=True)
         elif chartType == "Stairs":
             axis.stairs(axisValuesForLabel)
+        elif chartType == "Stem":
+            axis.stem(axisValuesForLabel)
 
         figures.append(axis.figure)
         i += 1
